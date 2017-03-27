@@ -29,7 +29,6 @@ public class Tarea2_Ejercicio9 {
         while (num > 0) {
             digitos[contador--] = num % 10;
             num /= 10;
-
         }
 
         for (int i = 0; i <= 4; i++) {
