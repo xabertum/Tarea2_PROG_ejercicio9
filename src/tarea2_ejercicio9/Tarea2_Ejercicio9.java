@@ -19,8 +19,9 @@ public class Tarea2_Ejercicio9 {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        int num, contador = 4;
-        int digitos[] = new int[4];
+        int num;
+        int contador = 4;
+        int digitos[] = new int[5];
 
         System.out.println("Introduce el numero: ");
         num = scanner.nextInt();
@@ -31,9 +32,11 @@ public class Tarea2_Ejercicio9 {
 
         }
 
-        for (int i = 0; i < 4; i++) {
-            System.out.print("El numero separado en digitos es: ");
-            System.out.println("" + digitos[i]);
+        for (int i = 0; i <= 4; i++) {
+            
+            System.out.print(" " + digitos[i]);
         }
+        
+        System.out.print("\nEl numero separado en digitos.. :-) ");
     }
 }
